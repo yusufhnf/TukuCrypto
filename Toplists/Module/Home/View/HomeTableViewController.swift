@@ -72,6 +72,15 @@ extension HomeTableViewController: UITableViewDataSource, UITableViewDelegate {
   func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
     return 80
   }
+  
+  func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+    tableView.deselectRow(at: indexPath, animated: true)
+    
+    let categoriesData = viewModel.cryptosData[indexPath.row].name
+    let vc = NewsViewController(newsCategories: categoriesData)
+    
+    present(vc, animated: true, completion: nil)
+  }
 }
 
 extension HomeTableViewController: HomeViewModelDelegate {
