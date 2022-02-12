@@ -17,8 +17,10 @@ struct AppConstants {
   }
   struct Title {
     static let homeTitle = "Toplists"
+    static let newsTitle = "News"
   }
   struct CellIdentifier {
     static let cryptoCell = "CryptoCellIdentifier"
+    static let newsCell = "NewsCellIdentifier"
   }
 }
