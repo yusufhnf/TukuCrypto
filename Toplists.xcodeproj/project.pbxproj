@@ -7,16 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		023F2995E76B8C558EE3CD5A /* Pods_Toplists.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C545BABDD8E93E26F67E1B81 /* Pods_Toplists.framework */; };
+		90AFF98EA62E7A7D6856C498 /* Pods_ToplistsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6017B196E7C9F2A403019AA /* Pods_ToplistsTests.framework */; };
+		EA1EA247AED99F2AFA23B527 /* Pods_Toplists_ToplistsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48483919D17F97E08920AB51 /* Pods_Toplists_ToplistsUITests.framework */; };
+		ED05465427B63982001E33BF /* UIView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED05465327B63982001E33BF /* UIView+Ext.swift */; };
+		ED05465727B6B52D001E33BF /* LiveProgressService.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED05465627B6B52D001E33BF /* LiveProgressService.swift */; };
+		ED05465B27B6C1CD001E33BF /* CryptoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED05465A27B6C1CD001E33BF /* CryptoModel.swift */; };
 		EDA17A6527B3CF7B0013890E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA17A6427B3CF7B0013890E /* AppDelegate.swift */; };
 		EDA17A6727B3CF7B0013890E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA17A6627B3CF7B0013890E /* SceneDelegate.swift */; };
-		EDA17A6927B3CF7B0013890E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA17A6827B3CF7B0013890E /* ViewController.swift */; };
-		EDA17A6C27B3CF7B0013890E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDA17A6A27B3CF7B0013890E /* Main.storyboard */; };
 		EDA17A6F27B3CF7B0013890E /* Toplists.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EDA17A6D27B3CF7B0013890E /* Toplists.xcdatamodeld */; };
 		EDA17A7127B3CF7C0013890E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDA17A7027B3CF7C0013890E /* Assets.xcassets */; };
 		EDA17A7427B3CF7C0013890E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDA17A7227B3CF7C0013890E /* LaunchScreen.storyboard */; };
 		EDA17A7F27B3CF7D0013890E /* ToplistsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA17A7E27B3CF7D0013890E /* ToplistsTests.swift */; };
 		EDA17A8927B3CF7D0013890E /* ToplistsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA17A8827B3CF7D0013890E /* ToplistsUITests.swift */; };
 		EDA17A8B27B3CF7D0013890E /* ToplistsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA17A8A27B3CF7D0013890E /* ToplistsUITestsLaunchTests.swift */; };
+		EDA17A9C27B427A20013890E /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA17A9B27B427A20013890E /* AppConstants.swift */; };
+		EDB6FB3D27B75E0E00275CFF /* SubsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB6FB3C27B75E0E00275CFF /* SubsModel.swift */; };
+		EDB6FB3F27B75E6200275CFF /* LiveProgressCryptoResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB6FB3E27B75E6200275CFF /* LiveProgressCryptoResponse.swift */; };
+		EDB6FB4127B75EAF00275CFF /* CryptosResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB6FB4027B75EAF00275CFF /* CryptosResponse.swift */; };
+		EDB6FB4327B76A4300275CFF /* ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB6FB4227B76A4300275CFF /* ApiService.swift */; };
+		EDB6FB4627B76AA500275CFF /* NetworkErrorResponse+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB6FB4527B76AA500275CFF /* NetworkErrorResponse+Ext.swift */; };
+		EDB6FB4827B76C2800275CFF /* CryptosRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB6FB4727B76C2800275CFF /* CryptosRepository.swift */; };
+		EDB6FB4E27B7B26D00275CFF /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB6FB4D27B7B26D00275CFF /* HomeViewModel.swift */; };
+		EDB6FB5227B809AF00275CFF /* ShowAlert+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB6FB5127B809AF00275CFF /* ShowAlert+Ext.swift */; };
+		EDB6FB5527B80C7000275CFF /* NumberFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB6FB5427B80C7000275CFF /* NumberFormat.swift */; };
+		EDE6658427B54694000E7E4E /* ActivityIndicator+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE6658327B54694000E7E4E /* ActivityIndicator+Ext.swift */; };
+		EDE6658927B56A22000E7E4E /* HomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE6658827B56A22000E7E4E /* HomeTableViewController.swift */; };
+		EDE6658B27B56F23000E7E4E /* CryptoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE6658A27B56F23000E7E4E /* CryptoTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,11 +54,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		18E89D941881DE6C70E75DC7 /* Pods-Toplists-ToplistsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Toplists-ToplistsUITests.debug.xcconfig"; path = "Target Support Files/Pods-Toplists-ToplistsUITests/Pods-Toplists-ToplistsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		48483919D17F97E08920AB51 /* Pods_Toplists_ToplistsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Toplists_ToplistsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B8882FFBBF52B07A8020ECE /* Pods-ToplistsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToplistsTests.release.xcconfig"; path = "Target Support Files/Pods-ToplistsTests/Pods-ToplistsTests.release.xcconfig"; sourceTree = "<group>"; };
+		71E6F5B842769E90A5B3F68B /* Pods-Toplists.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Toplists.release.xcconfig"; path = "Target Support Files/Pods-Toplists/Pods-Toplists.release.xcconfig"; sourceTree = "<group>"; };
+		73CC319336BBEC4B4A6D3E25 /* Pods-ToplistsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToplistsTests.debug.xcconfig"; path = "Target Support Files/Pods-ToplistsTests/Pods-ToplistsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9DE4B87DFA88E29A164C3B63 /* Pods-Toplists-ToplistsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Toplists-ToplistsUITests.release.xcconfig"; path = "Target Support Files/Pods-Toplists-ToplistsUITests/Pods-Toplists-ToplistsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B6017B196E7C9F2A403019AA /* Pods_ToplistsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ToplistsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C545BABDD8E93E26F67E1B81 /* Pods_Toplists.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Toplists.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D96576E86A786E79CEFEA718 /* Pods-Toplists.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Toplists.debug.xcconfig"; path = "Target Support Files/Pods-Toplists/Pods-Toplists.debug.xcconfig"; sourceTree = "<group>"; };
+		ED05465327B63982001E33BF /* UIView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Ext.swift"; sourceTree = "<group>"; };
+		ED05465627B6B52D001E33BF /* LiveProgressService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveProgressService.swift; sourceTree = "<group>"; };
+		ED05465A27B6C1CD001E33BF /* CryptoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoModel.swift; sourceTree = "<group>"; };
 		EDA17A6127B3CF7B0013890E /* Toplists.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Toplists.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDA17A6427B3CF7B0013890E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EDA17A6627B3CF7B0013890E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		EDA17A6827B3CF7B0013890E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		EDA17A6B27B3CF7B0013890E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EDA17A6E27B3CF7B0013890E /* Toplists.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Toplists.xcdatamodel; sourceTree = "<group>"; };
 		EDA17A7027B3CF7C0013890E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EDA17A7327B3CF7C0013890E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +78,19 @@
 		EDA17A8427B3CF7D0013890E /* ToplistsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToplistsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDA17A8827B3CF7D0013890E /* ToplistsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToplistsUITests.swift; sourceTree = "<group>"; };
 		EDA17A8A27B3CF7D0013890E /* ToplistsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToplistsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EDA17A9B27B427A20013890E /* AppConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
+		EDB6FB3C27B75E0E00275CFF /* SubsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubsModel.swift; sourceTree = "<group>"; };
+		EDB6FB3E27B75E6200275CFF /* LiveProgressCryptoResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveProgressCryptoResponse.swift; sourceTree = "<group>"; };
+		EDB6FB4027B75EAF00275CFF /* CryptosResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptosResponse.swift; sourceTree = "<group>"; };
+		EDB6FB4227B76A4300275CFF /* ApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiService.swift; sourceTree = "<group>"; };
+		EDB6FB4527B76AA500275CFF /* NetworkErrorResponse+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NetworkErrorResponse+Ext.swift"; sourceTree = "<group>"; };
+		EDB6FB4727B76C2800275CFF /* CryptosRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptosRepository.swift; sourceTree = "<group>"; };
+		EDB6FB4D27B7B26D00275CFF /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		EDB6FB5127B809AF00275CFF /* ShowAlert+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ShowAlert+Ext.swift"; sourceTree = "<group>"; };
+		EDB6FB5427B80C7000275CFF /* NumberFormat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberFormat.swift; sourceTree = "<group>"; };
+		EDE6658327B54694000E7E4E /* ActivityIndicator+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ActivityIndicator+Ext.swift"; sourceTree = "<group>"; };
+		EDE6658827B56A22000E7E4E /* HomeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewController.swift; sourceTree = "<group>"; };
+		EDE6658A27B56F23000E7E4E /* CryptoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				023F2995E76B8C558EE3CD5A /* Pods_Toplists.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90AFF98EA62E7A7D6856C498 /* Pods_ToplistsTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +114,56 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA1EA247AED99F2AFA23B527 /* Pods_Toplists_ToplistsUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		97B3AB3B57FE75734B849B30 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C545BABDD8E93E26F67E1B81 /* Pods_Toplists.framework */,
+				48483919D17F97E08920AB51 /* Pods_Toplists_ToplistsUITests.framework */,
+				B6017B196E7C9F2A403019AA /* Pods_ToplistsTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B2325A0DC06A99685CDF4158 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D96576E86A786E79CEFEA718 /* Pods-Toplists.debug.xcconfig */,
+				71E6F5B842769E90A5B3F68B /* Pods-Toplists.release.xcconfig */,
+				18E89D941881DE6C70E75DC7 /* Pods-Toplists-ToplistsUITests.debug.xcconfig */,
+				9DE4B87DFA88E29A164C3B63 /* Pods-Toplists-ToplistsUITests.release.xcconfig */,
+				73CC319336BBEC4B4A6D3E25 /* Pods-ToplistsTests.debug.xcconfig */,
+				4B8882FFBBF52B07A8020ECE /* Pods-ToplistsTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		ED05465227B63964001E33BF /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				EDE6658327B54694000E7E4E /* ActivityIndicator+Ext.swift */,
+				ED05465327B63982001E33BF /* UIView+Ext.swift */,
+				EDB6FB4527B76AA500275CFF /* NetworkErrorResponse+Ext.swift */,
+				EDB6FB5127B809AF00275CFF /* ShowAlert+Ext.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		ED05465527B6B4F1001E33BF /* Remote */ = {
+			isa = PBXGroup;
+			children = (
+				ED05465627B6B52D001E33BF /* LiveProgressService.swift */,
+				EDB6FB4227B76A4300275CFF /* ApiService.swift */,
+			);
+			path = Remote;
+			sourceTree = "<group>";
+		};
 		EDA17A5827B3CF7A0013890E = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +171,8 @@
 				EDA17A7D27B3CF7D0013890E /* ToplistsTests */,
 				EDA17A8727B3CF7D0013890E /* ToplistsUITests */,
 				EDA17A6227B3CF7B0013890E /* Products */,
+				B2325A0DC06A99685CDF4158 /* Pods */,
+				97B3AB3B57FE75734B849B30 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +189,9 @@
 		EDA17A6327B3CF7B0013890E /* Toplists */ = {
 			isa = PBXGroup;
 			children = (
-				EDA17A6427B3CF7B0013890E /* AppDelegate.swift */,
-				EDA17A6627B3CF7B0013890E /* SceneDelegate.swift */,
-				EDA17A6827B3CF7B0013890E /* ViewController.swift */,
-				EDA17A6A27B3CF7B0013890E /* Main.storyboard */,
+				EDA17A9927B4274A0013890E /* Base */,
+				EDA17A9827B427320013890E /* Module */,
+				EDA17A9727B427200013890E /* Core */,
 				EDA17A7027B3CF7C0013890E /* Assets.xcassets */,
 				EDA17A7227B3CF7C0013890E /* LaunchScreen.storyboard */,
 				EDA17A7527B3CF7C0013890E /* Info.plist */,
@@ -130,6 +217,113 @@
 			path = ToplistsUITests;
 			sourceTree = "<group>";
 		};
+		EDA17A9727B427200013890E /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				ED05465227B63964001E33BF /* Extension */,
+				EDA17AA727B429A90013890E /* Model */,
+				EDA17AA627B4299F0013890E /* Data */,
+				EDA17AA527B429980013890E /* Repository */,
+				EDA17A9A27B4275E0013890E /* Utils */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		EDA17A9827B427320013890E /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				EDA17A9D27B428840013890E /* Home */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		EDA17A9927B4274A0013890E /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				EDA17A6427B3CF7B0013890E /* AppDelegate.swift */,
+				EDA17A6627B3CF7B0013890E /* SceneDelegate.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		EDA17A9A27B4275E0013890E /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				EDA17A9B27B427A20013890E /* AppConstants.swift */,
+				EDB6FB5427B80C7000275CFF /* NumberFormat.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		EDA17A9D27B428840013890E /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				EDB6FB4C27B7B26000275CFF /* Model */,
+				EDB6FB4B27B7B24F00275CFF /* ViewModel */,
+				EDA17A9E27B428DB0013890E /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		EDA17A9E27B428DB0013890E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EDB6FB5327B80AD300275CFF /* Cell */,
+				EDE6658827B56A22000E7E4E /* HomeTableViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EDA17AA527B429980013890E /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				EDB6FB4727B76C2800275CFF /* CryptosRepository.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		EDA17AA627B4299F0013890E /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				ED05465527B6B4F1001E33BF /* Remote */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		EDA17AA727B429A90013890E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EDB6FB3C27B75E0E00275CFF /* SubsModel.swift */,
+				EDB6FB3E27B75E6200275CFF /* LiveProgressCryptoResponse.swift */,
+				EDB6FB4027B75EAF00275CFF /* CryptosResponse.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EDB6FB4B27B7B24F00275CFF /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				EDB6FB4D27B7B26D00275CFF /* HomeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		EDB6FB4C27B7B26000275CFF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				ED05465A27B6C1CD001E33BF /* CryptoModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EDB6FB5327B80AD300275CFF /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				EDE6658A27B56F23000E7E4E /* CryptoTableViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,9 +331,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EDA17A8E27B3CF7D0013890E /* Build configuration list for PBXNativeTarget "Toplists" */;
 			buildPhases = (
+				528191118F393297E2AB93EA /* [CP] Check Pods Manifest.lock */,
 				EDA17A5D27B3CF7B0013890E /* Sources */,
 				EDA17A5E27B3CF7B0013890E /* Frameworks */,
 				EDA17A5F27B3CF7B0013890E /* Resources */,
+				794EF955C51149E6BF4B8234 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -154,6 +350,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EDA17A9127B3CF7D0013890E /* Build configuration list for PBXNativeTarget "ToplistsTests" */;
 			buildPhases = (
+				5686E1D84710EA828A735127 /* [CP] Check Pods Manifest.lock */,
 				EDA17A7627B3CF7D0013890E /* Sources */,
 				EDA17A7727B3CF7D0013890E /* Frameworks */,
 				EDA17A7827B3CF7D0013890E /* Resources */,
@@ -172,9 +369,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EDA17A9427B3CF7D0013890E /* Build configuration list for PBXNativeTarget "ToplistsUITests" */;
 			buildPhases = (
+				26C3D59AA2E1862233928451 /* [CP] Check Pods Manifest.lock */,
 				EDA17A8027B3CF7D0013890E /* Sources */,
 				EDA17A8127B3CF7D0013890E /* Frameworks */,
 				EDA17A8227B3CF7D0013890E /* Resources */,
+				874041653280F5FEAE01C391 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -236,7 +435,6 @@
 			files = (
 				EDA17A7427B3CF7C0013890E /* LaunchScreen.storyboard in Resources */,
 				EDA17A7127B3CF7C0013890E /* Assets.xcassets in Resources */,
-				EDA17A6C27B3CF7B0013890E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,15 +454,133 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		26C3D59AA2E1862233928451 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Toplists-ToplistsUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		528191118F393297E2AB93EA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Toplists-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5686E1D84710EA828A735127 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ToplistsTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		794EF955C51149E6BF4B8234 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Toplists/Pods-Toplists-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Toplists/Pods-Toplists-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Toplists/Pods-Toplists-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		874041653280F5FEAE01C391 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Toplists-ToplistsUITests/Pods-Toplists-ToplistsUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Toplists-ToplistsUITests/Pods-Toplists-ToplistsUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Toplists-ToplistsUITests/Pods-Toplists-ToplistsUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EDA17A5D27B3CF7B0013890E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EDA17A6927B3CF7B0013890E /* ViewController.swift in Sources */,
+				EDB6FB4E27B7B26D00275CFF /* HomeViewModel.swift in Sources */,
+				EDB6FB5227B809AF00275CFF /* ShowAlert+Ext.swift in Sources */,
+				EDB6FB3D27B75E0E00275CFF /* SubsModel.swift in Sources */,
+				EDB6FB5527B80C7000275CFF /* NumberFormat.swift in Sources */,
+				EDE6658927B56A22000E7E4E /* HomeTableViewController.swift in Sources */,
+				EDE6658427B54694000E7E4E /* ActivityIndicator+Ext.swift in Sources */,
+				ED05465427B63982001E33BF /* UIView+Ext.swift in Sources */,
+				EDB6FB4127B75EAF00275CFF /* CryptosResponse.swift in Sources */,
+				ED05465727B6B52D001E33BF /* LiveProgressService.swift in Sources */,
 				EDA17A6527B3CF7B0013890E /* AppDelegate.swift in Sources */,
+				EDB6FB4627B76AA500275CFF /* NetworkErrorResponse+Ext.swift in Sources */,
+				ED05465B27B6C1CD001E33BF /* CryptoModel.swift in Sources */,
+				EDB6FB4827B76C2800275CFF /* CryptosRepository.swift in Sources */,
 				EDA17A6727B3CF7B0013890E /* SceneDelegate.swift in Sources */,
 				EDA17A6F27B3CF7B0013890E /* Toplists.xcdatamodeld in Sources */,
+				EDB6FB4327B76A4300275CFF /* ApiService.swift in Sources */,
+				EDA17A9C27B427A20013890E /* AppConstants.swift in Sources */,
+				EDB6FB3F27B75E6200275CFF /* LiveProgressCryptoResponse.swift in Sources */,
+				EDE6658B27B56F23000E7E4E /* CryptoTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,14 +617,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		EDA17A6A27B3CF7B0013890E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EDA17A6B27B3CF7B0013890E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		EDA17A7227B3CF7C0013890E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -438,6 +746,7 @@
 		};
 		EDA17A8F27B3CF7D0013890E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D96576E86A786E79CEFEA718 /* Pods-Toplists.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -448,7 +757,6 @@
 				INFOPLIST_FILE = Toplists/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -466,6 +774,7 @@
 		};
 		EDA17A9027B3CF7D0013890E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71E6F5B842769E90A5B3F68B /* Pods-Toplists.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -476,7 +785,6 @@
 				INFOPLIST_FILE = Toplists/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -494,6 +802,7 @@
 		};
 		EDA17A9227B3CF7D0013890E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73CC319336BBEC4B4A6D3E25 /* Pods-ToplistsTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -514,6 +823,7 @@
 		};
 		EDA17A9327B3CF7D0013890E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B8882FFBBF52B07A8020ECE /* Pods-ToplistsTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -534,6 +844,7 @@
 		};
 		EDA17A9527B3CF7D0013890E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18E89D941881DE6C70E75DC7 /* Pods-Toplists-ToplistsUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -552,6 +863,7 @@
 		};
 		EDA17A9627B3CF7D0013890E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DE4B87DFA88E29A164C3B63 /* Pods-Toplists-ToplistsUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
